@@ -1,0 +1,14 @@
+{
+  "name": "Osogbo RCC Dashboard",
+  "short_name": "RCC Dashboard",
+  "description": "Mobile dashboard summarizing this month's incident reports and daily max/min load for Osogbo Regional Control Centre.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B1220",
+  "theme_color": "#0B1220",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
