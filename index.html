@@ -403,7 +403,7 @@
   // ---- CONFIG -------------------------------------------------------
   // Paste your Apps Script Web App URL here (from Deploy > New deployment).
   var CONFIG = {
-    API_URL: 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE'
+    API_URL: 'https://script.google.com/macros/s/AKfycbzfRUPH7_4qv9-qvnLP04E1v_f7bMamjL--NJhth-F2L_pTpKkozvA88s6HzdsiTVHW/exec'
   };
 
   var trendChart, typeChart;
@@ -601,7 +601,7 @@
   document.getElementById('refreshBtn').addEventListener('click', loadDashboard);
   document.getElementById('retryBtn').addEventListener('click', loadDashboard);
 
-  if (CONFIG.API_URL.indexOf('https://script.google.com/macros/s/AKfycbzfRUPH7_4qv9-qvnLP04E1v_f7bMamjL--NJhth-F2L_pTpKkozvA88s6HzdsiTVHW/exec') !== -1) {
+  if (CONFIG.API_URL.indexOf('PASTE_YOUR') !== -1) {
     document.getElementById('errorText').textContent =
       'Set CONFIG.API_URL in index.html to your deployed Apps Script Web App URL.';
     showState('error');
